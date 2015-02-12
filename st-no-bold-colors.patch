@@ -1,0 +1,12 @@
+diff -aur st.0/st.c st.new/st.c
+--- st.0/st.c	2015-02-10 05:08:41.633782197 -0800
++++ st.new/st.c	2015-02-10 05:38:29.634756281 -0800
+@@ -3269,7 +3269,7 @@
+ 		 * to bright system colors [8-15]
+ 		 */
+ 		if(BETWEEN(base.fg, 0, 7) && !(base.mode & ATTR_FAINT))
+-			fg = &dc.col[base.fg + 8];
++			fg = &dc.col[base.fg];
+ 
+ 		if(base.mode & ATTR_ITALIC) {
+ 			font = &dc.ibfont;

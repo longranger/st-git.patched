@@ -1,0 +1,35 @@
+diff -aur st/config.def.h st.new/config.def.h
+--- st/config.def.h	2015-02-12 05:35:54.438374608 -0800
++++ st.new/config.def.h	2015-02-12 05:38:37.271372248 -0800
+@@ -5,8 +5,8 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
+-static int borderpx = 2;
++static char font[] = "Terminus:pixelsize=16:antialias=true:autohine=true";
++static int borderpx = 0;
+ static char shell[] = "/bin/sh";
+ static char *utmp = NULL;
+ 
+@@ -22,7 +22,7 @@
+  *
+  * More advanced example: " `'\"()[]{}"
+  */
+-static char worddelimiters[] = " ";
++static char worddelimiters[] = " `'\"()[]{}│&";
+ 
+ /* selection timeouts (in milliseconds) */
+ static unsigned int doubleclicktimeout = 300;
+@@ -48,9 +48,9 @@
+ static int bellvolume = 0;
+ 
+ /* TERM value */
+-static char termname[] = "st-256color";
++static char termname[] = "xterm-256color";
+ 
+-static unsigned int tabspaces = 8;
++static unsigned int tabspaces = 4;
+ 
+ 
+ /* Terminal colors (16 first used in escape sequence) */
