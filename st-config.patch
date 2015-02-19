@@ -7,7 +7,7 @@ diff -aur st/config.def.h st.new/config.def.h
   */
 -static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
 -static int borderpx = 2;
-+static char font[] = "Terminus:pixelsize=16:antialias=true:autohine=true";
++static char font[] = "LiberationMono:pixelsize=16:antialias=true:autohine=true";
 +static int borderpx = 0;
  static char shell[] = "/bin/sh";
  static char *utmp = NULL;
