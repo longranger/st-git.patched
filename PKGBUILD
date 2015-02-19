@@ -16,7 +16,7 @@ source=('git://git.suckless.org/st' st-no-bold-colors.patch st-solarized-dark.pa
 sha1sums=('SKIP'
           'ff7db7c22488e0f5da9b5aa1b9310b9c583ca3bc'
           '30a0f2d2a244262f7f931829f711a2f3bd0e0302'
-          '145066c89f6c2181f767c6e338c3d50f81addcf7')
+          '93810b619d3184e2044e6945f25436bb93e9d51d')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
